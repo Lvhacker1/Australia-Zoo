@@ -1,4 +1,4 @@
-import styles from "./Sidebar.module.css"
+import styles from "./sidebar.module.css"
 
 const Sidebar = ({ animals = [], activeAnimalId, onAnimalClick}) => {
    
