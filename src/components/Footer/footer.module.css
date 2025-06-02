@@ -1,0 +1,14 @@
+.footer {
+    background-color: var(--color-card-bg);
+}
+
+.footerContainer {
+    max-width: 1200px;
+    text-align: center;
+    margin: 0 auto;
+    padding: 1rem;
+}
+
+.footerText {
+    color: var(--color-paragraph);
+}

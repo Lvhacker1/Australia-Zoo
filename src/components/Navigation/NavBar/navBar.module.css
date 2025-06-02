@@ -1,0 +1,19 @@
+.navBar {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 1rem;
+}
+
+.navList {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+@media screen and (min-width: 1000px) {
+    .navList {
+        gap: 3rem;
+    }
+}

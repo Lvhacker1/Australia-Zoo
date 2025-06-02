@@ -1,0 +1,30 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --color-bg: #1a1d24;
+  --color-card-bg: #242629;
+  --color-paragraph: #94a1b2;
+  --color-border: #2a2f3a;
+  --color-button: #7f5af0;
+  --color-text: #fffffe;
+  --color-textt: #72757e;
+  --color-texttt: #2cb67d;
+  --color-textttt: #fffffe;
+  --color-texttttt: #fffffe;
+}
+
+body {
+  min-height: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: var(--color-bg);
+  line-height: 1.5;
+}
+
+html {
+  min-height: 100vh;
+}

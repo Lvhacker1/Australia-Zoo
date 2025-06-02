@@ -1,0 +1,18 @@
+.sidebarList {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.sidebarListItem {
+    cursor: pointer;
+}
+
+.activeAnimal {
+    color: var(--color-button);
+}
+
+.activeAnimal:hover {
+    color: var(--color-button);
+}

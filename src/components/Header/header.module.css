@@ -1,0 +1,23 @@
+.header {
+    width: 100%; 
+    text-align: center;
+    color: var(--color-text);
+}
+.title {
+    padding: 0.5rem;
+}
+
+@media screen and (min-width: 768px) {
+    .header {
+        display: grid;
+        grid-template-columns: 1fr auto 1fr;
+        align-items: center;
+    }
+
+    .title {
+        justify-self: start;
+        padding: 2rem;
+        padding-left: 3rem;
+    }
+    
+}
