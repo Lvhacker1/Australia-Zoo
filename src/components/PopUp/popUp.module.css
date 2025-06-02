@@ -1,22 +1,22 @@
 .popUp {
     position: fixed;
-    top: 56px;
     left: 0;
     right: 0;
     bottom: 0;
+    top: 0;
     background-color: var(--color-card-bg);
     overflow-y: auto;
 }
 
 .closeButton {
     position: absolute;
-    top: 1rem;
     left: 1.5rem;
     font-size: 1.2rem;
     padding: 5px;
     cursor: pointer;
     border: none;
     transition: 0.3s;
+    margin: 1rem 0;
 }
 
 .closeButton:hover {
